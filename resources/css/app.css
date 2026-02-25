@@ -258,55 +258,48 @@ body {
 }
 
 
-/* ===== MOBILE DEVICE = FIRST RESPONSIVE STATE ===== */
+/* ===== MOBILE DEVICE (mirrors 768px breakpoint) ===== */
 
-.mobile-device .page-wrapper {
-    align-items: flex-start;
-    padding-top: 40px;
-}
-
-/* Same container behavior as first desktop breakpoint */
 .mobile-device .offer-section {
-    max-width: 100%;
-    padding: 30px 15px;
+    padding: 0px 0px 30px 0px;
 }
 
-/* Card sizing identical to stacked layout */
 .mobile-device .offer-card {
-    padding: 35px 25px;
+    padding: 0px 0px 35px 0px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-/* Hide aliens just like desktop responsive */
-.mobile-device .side-banner {
-    display: none;
-}
-
-/* Stack columns exactly like responsive breakpoint */
 .mobile-device .offer-grid {
     grid-template-columns: 1fr !important;
     gap: 40px;
 }
 
-/* Center list like responsive */
 .mobile-device .left-column {
     text-align: center;
+}
+
+.mobile-device .left-column li {
+    font-size: 1.7rem;
+}
+
+.mobile-device .side-banner {
+    width: 140px;
+}
+
+.mobile-device .logo-center {
+    height: 120px;
+}
+
+.mobile-device .offer-card h2 {
+    font-size: 2.2rem;
 }
 
 .mobile-device .left-column ul {
     text-align: center;
 }
 
-/* Font sizing same as breakpoint */
-.mobile-device .left-column li {
-    font-size: 1.7rem;
-}
-
-/* Logo scaling */
-.mobile-device .logo-center {
-    height: 120px;
-}
-
-/* Heading scaling */
-.mobile-device .offer-card h2 {
-    font-size: 2.2rem;
+.mobile-device .decor-left,
+.mobile-device .decor-right {
+    margin-top: -35px;
 }
