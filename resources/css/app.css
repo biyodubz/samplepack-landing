@@ -257,72 +257,56 @@ body {
     }
 }
 
-/* Modern mobile detection */
-@media (hover: none) and (pointer: coarse) {
 
-    .page-wrapper {
-        align-items: flex-start;
-        padding-top: 40px;
-    }
+/* ===== MOBILE DEVICE = FIRST RESPONSIVE STATE ===== */
 
-    .offer-section {
-        max-width: 100%;
-        padding: 20px 12px;
-    }
-
-    .offer-card {
-        width: 100%;
-        padding: 30px 20px;
-        border-radius: 16px;
-    }
-
-    .offer-grid {
-        grid-template-columns: 1fr;
-        gap: 30px;
-    }
-
-    .left-column ul {
-        text-align: center;
-    }
-
-    .left-column li {
-        font-size: 1.6rem;
-    }
-}
-
-/* Mobile device specific layout — does NOT affect desktop resizing */
 .mobile-device .page-wrapper {
     align-items: flex-start;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
+/* Same container behavior as first desktop breakpoint */
 .mobile-device .offer-section {
     max-width: 100%;
-    padding: 16px;
+    padding: 30px 15px;
 }
 
+/* Card sizing identical to stacked layout */
 .mobile-device .offer-card {
-    width: 100%;
-    padding: 28px 18px;
-    border-radius: 14px;
+    padding: 35px 25px;
 }
 
-/* Stack columns */
+/* Hide aliens just like desktop responsive */
+.mobile-device .side-banner {
+    display: none;
+}
+
+/* Stack columns exactly like responsive breakpoint */
 .mobile-device .offer-grid {
     grid-template-columns: 1fr !important;
-    gap: 28px;
+    gap: 40px;
+}
+
+/* Center list like responsive */
+.mobile-device .left-column {
+    text-align: center;
 }
 
 .mobile-device .left-column ul {
     text-align: center;
 }
 
+/* Font sizing same as breakpoint */
 .mobile-device .left-column li {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
-/* Optional: hide aliens on phones */
-.mobile-device .side-banner {
-    display: none;
+/* Logo scaling */
+.mobile-device .logo-center {
+    height: 120px;
 }
 
+/* Heading scaling */
+.mobile-device .offer-card h2 {
+    font-size: 2.2rem;
+}
