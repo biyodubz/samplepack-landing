@@ -290,3 +290,39 @@ body {
     }
 }
 
+/* Mobile device specific layout — does NOT affect desktop resizing */
+.mobile-device .page-wrapper {
+    align-items: flex-start;
+    padding-top: 30px;
+}
+
+.mobile-device .offer-section {
+    max-width: 100%;
+    padding: 16px;
+}
+
+.mobile-device .offer-card {
+    width: 100%;
+    padding: 28px 18px;
+    border-radius: 14px;
+}
+
+/* Stack columns */
+.mobile-device .offer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 28px;
+}
+
+.mobile-device .left-column ul {
+    text-align: center;
+}
+
+.mobile-device .left-column li {
+    font-size: 1.5rem;
+}
+
+/* Optional: hide aliens on phones */
+.mobile-device .side-banner {
+    display: none;
+}
+
