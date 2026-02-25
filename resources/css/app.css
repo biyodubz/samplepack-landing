@@ -257,3 +257,36 @@ body {
     }
 }
 
+/* Modern mobile detection */
+@media (hover: none) and (pointer: coarse) {
+
+    .page-wrapper {
+        align-items: flex-start;
+        padding-top: 40px;
+    }
+
+    .offer-section {
+        max-width: 100%;
+        padding: 20px 12px;
+    }
+
+    .offer-card {
+        width: 100%;
+        padding: 30px 20px;
+        border-radius: 16px;
+    }
+
+    .offer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .left-column ul {
+        text-align: center;
+    }
+
+    .left-column li {
+        font-size: 1.6rem;
+    }
+}
+
