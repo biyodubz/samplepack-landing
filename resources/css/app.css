@@ -330,6 +330,6 @@ body {
 /* Dripping decor alignment */
 .mobile-device .decor-left,
 .mobile-device .decor-right {
-    margin-top: -250px;
+    margin-top: -260px;
     transform: scale(1.35);
 }
