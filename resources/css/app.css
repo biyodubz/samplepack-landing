@@ -271,7 +271,7 @@ body {
     padding: 0 0 35px 0;      /* keep spill effect */
     margin: 0 12px;
 
-    min-height: 85vh;
+    min-height: 65vh;
 
     display: flex;
     flex-direction: column;
@@ -299,7 +299,7 @@ body {
 
 /* Logo */
 .mobile-device .logo-center {
-    height: 160px;
+    height: 250px;
 }
 
 /* Heading */
@@ -311,7 +311,7 @@ body {
 
 /* Sample list */
 .mobile-device .left-column li {
-    font-size: 2rem;
+    font-size: 30px;
     margin-bottom: 14px;
 }
 
