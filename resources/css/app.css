@@ -300,7 +300,7 @@ body {
 /* Logo */
 .mobile-device .logo-center {
     height: 300px;
-    margin-top: -450px;
+    margin-top: -300px;
 }
 
 /* Heading */
@@ -331,6 +331,6 @@ body {
 /* Dripping decor alignment */
 .mobile-device .decor-left,
 .mobile-device .decor-right {
-    margin-top: -650px;
+    margin-top: -500px;
     transform: scale(1.15);
 }
