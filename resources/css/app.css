@@ -300,37 +300,39 @@ body {
 /* Logo */
 .mobile-device .logo-center {
     height: 300px;
-    margin-top: -300px;
+    margin-top: -250px;
 }
 
 /* Heading */
 .mobile-device .offer-card h2 {
     font-size: 80px;
     margin-top: 10px;
-    margin-bottom: 35px;
+    margin-bottom: 65px;
 }
 
 /* Sample list */
 .mobile-device .left-column li {
     font-size: 60px;
-    margin-bottom: 14px;
+    margin-bottom: 44px;
 }
 
 /* Input */
 .mobile-device .right-column input {
     font-size: 1.1rem;
     padding: 18px;
+    width:80%;
 }
 
 /* Button */
 .mobile-device .right-column button {
     font-size: 26px;
     padding: 18px;
+    width:80%;
 }
 
 /* Dripping decor alignment */
 .mobile-device .decor-left,
 .mobile-device .decor-right {
-    margin-top: -500px;
+    margin-top: -485px;
     transform: scale(1.15);
 }
