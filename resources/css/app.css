@@ -273,7 +273,7 @@ body {
 
 .mobile-device .offer-card {
     width: 100%;
-    min-height: 80vh;                 /* fills vertical space */
+    min-height: 60vh;                 /* fills vertical space */
     padding: 50px 22px 45px 22px;
     border-radius: 20px;
 
