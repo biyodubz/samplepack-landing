@@ -300,7 +300,6 @@ body {
 /* Logo */
 .mobile-device .logo-center {
     height: 300px;
-    margin-top: -250px;
 }
 
 /* Heading */
@@ -320,19 +319,17 @@ body {
 .mobile-device .right-column input {
     font-size: 1.1rem;
     padding: 18px;
-    width:80%;
 }
 
 /* Button */
 .mobile-device .right-column button {
     font-size: 26px;
     padding: 18px;
-    width:80%;
 }
 
 /* Dripping decor alignment */
 .mobile-device .decor-left,
 .mobile-device .decor-right {
-    margin-top: -485px;
+    margin-top: -510px;
     transform: scale(1.15);
 }
