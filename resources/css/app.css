@@ -317,15 +317,31 @@ body {
 
 /* Input */
 .mobile-device .right-column input {
-    font-size: 1.1rem;
-    padding: 18px;
+    width: 150%;
+    padding: 14px 18px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
 }
+
 
 /* Button */
 .mobile-device .right-column button {
-    font-size: 26px;
-    padding: 18px;
+    width: 150%;
+    padding: 14px;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.25s ease;
 }
+
 
 /* Dripping decor alignment */
 .mobile-device .decor-left,
