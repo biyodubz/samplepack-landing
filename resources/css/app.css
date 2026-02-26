@@ -258,72 +258,78 @@ body {
 }
 
 
-/* ===== MOBILE DEVICE FULLSCREEN CARD ===== */
+/* ===== REAL MOBILE DEVICES ===== */
 
 .mobile-device .page-wrapper {
     align-items: flex-start;
-    padding: 20px 12px;
+    padding-top: 20px;
 }
 
-/* Make card fill more of screen */
-.mobile-device .offer-section {
-    width: 100%;
-    max-width: 100%;
-}
-
+/* Card fills screen but keeps spill illusion */
 .mobile-device .offer-card {
-    width: 100%;
-    min-height: 60vh;                 /* fills vertical space */
-    padding: 50px 22px 45px 22px;
-    border-radius: 20px;
+
+    padding: 0 0 35px 0;      /* keep spill effect */
+    margin: 0 12px;
+
+    min-height: 85vh;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;          /* center content vertically */
+    justify-content: center;
 }
 
-/* Logo bigger */
-.mobile-device .logo-center {
-    height: 140px;
+/* Section container */
+.mobile-device .offer-section {
+    max-width: 100%;
+    padding: 0;
 }
 
-/* Decorative flames scale */
-.mobile-device .decor-left,
-.mobile-device .decor-right {
-    margin-top: -40px;
-    transform: scale(1.1);
-}
-
-/* Heading larger */
-.mobile-device .offer-card h2 {
-    font-size: 2.6rem;
-    letter-spacing: 2px;
-    margin-bottom: 35px;
-}
-
-/* Stack columns */
+/* STACKED GRID */
 .mobile-device .offer-grid {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
     gap: 45px;
 }
 
-/* List bigger */
+/* CENTER LIST */
+.mobile-device .left-column ul {
+    text-align: center;
+}
+
+/* ===== SCALE EVERYTHING UP ===== */
+
+/* Logo */
+.mobile-device .logo-center {
+    height: 160px;
+}
+
+/* Heading */
+.mobile-device .offer-card h2 {
+    font-size: 2.6rem;
+    margin-top: 10px;
+    margin-bottom: 35px;
+}
+
+/* Sample list */
 .mobile-device .left-column li {
-    font-size: 1.9rem;
+    font-size: 2rem;
     margin-bottom: 14px;
 }
 
-/* Form wider + larger */
+/* Input */
 .mobile-device .right-column input {
-    width: 100%;
-    padding: 18px;
     font-size: 1.1rem;
-    border-radius: 10px;
+    padding: 18px;
 }
 
+/* Button */
 .mobile-device .right-column button {
-    width: 100%;
+    font-size: 1.3rem;
     padding: 18px;
-    font-size: 1.25rem;
-    border-radius: 10px;
+}
+
+/* Dripping decor alignment */
+.mobile-device .decor-left,
+.mobile-device .decor-right {
+    margin-top: -35px;
+    transform: scale(1.15);
 }
