@@ -331,5 +331,5 @@ body {
 .mobile-device .decor-left,
 .mobile-device .decor-right {
     margin-top: -300px;
-    transform: scale(1.15);
+    transform: scale(1.5);
 }
