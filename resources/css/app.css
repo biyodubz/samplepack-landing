@@ -318,17 +318,17 @@ body {
 
 /* Input */
 .mobile-device .right-column input {
-    font-size: 1.1rem;
+    font-size: 22px;
     padding: 18px;
-    width: 800px;
+    width: 700px;
     height: 80px;
 }
 
 /* Button */
 .mobile-device .right-column button {
-    font-size: 26px;
+    font-size: 30px;
     padding: 18px;
-    width: 800px;
+    width: 700px;
     height: 80px;
 }
 
