@@ -319,13 +319,13 @@ body {
 /* Input */
 .mobile-device .right-column input {
     font-size: 1.1rem;
-    padding: 18px;
+    
 }
 
 /* Button */
 .mobile-device .right-column button {
     font-size: 26px;
-    padding: 18px;
+    
 }
 
 /* Dripping decor alignment */
